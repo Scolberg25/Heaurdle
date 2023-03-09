@@ -79,7 +79,84 @@ function endGame(condition) {
     }
 }
 
-function playAudio() {
-    let audio = new Audio(songTrack);
-    audio.play();
+const audioElement = document.querySelector("audio");
+const audioCtx = new AudioContext();
+const track = audioCtx.createMediaElementSource(audioElement);
+
+const playButton = document.querySelector(".player-play-btn");
+const playIcon = playButton.querySelector(".player-icon-play");
+const pauseIcon = playButton.querySelector(".player-icon-pause");
+const progress = document.querySelector(".player-progress");
+const progressFilled = document.querySelector(".player-progress-filled");
+const playerCurrentTime = document.querySelector(".player-time-current");
+const playerDuration = document.querySelector(".player-time-duration");
+const volumeControl = document.querySelector(".player-volume")
+
+window.addEventListener("load", () => {
+    setTimes();
+    audioElement.addEventListener("timeupdate", () => {
+    progressUpdate();
+    setTimes();
+});
+
+playButton.addEventListener("click", () => {
+    if (audioCtx.state === "suspended") {
+        audioCtx.resume();
+    }
+
+    if (playButton.dataset.playing === "false") {
+        audioElement.play();
+
+        playButton.dataset.playing = "true";
+        playIcon.classList.add("hidden");
+        pauseIcon.classList.remove("hidden");
+    } else if (playButton.dataset.playing === "true") {
+        audioElement.pause();
+        playButton.dataset.playing = "false";
+        pauseIcon.classList.add("hidden");
+        playIcon.classList.remove("hidden");
+    }
+});
+
+audioElement.addEventListener("ended", () => {
+    playButton.dataset.playing = "false";
+    pauseIcon.classList.add("hidden");
+    playIcon.classList.remove("hidden");
+    progressFilled.style.flexBasis = "0%";
+    audioElement.currentTime = 0;
+    audioElement.duration = audioElement.duration;
+});
+
+
+const gainNode = audioCtx.createGain();
+const volumeControl = document.querySelector(".player-volume");
+
+volumeControl.addEventListener("change", () => {
+    gainNode.gain.value = volumeControl.value;
+});
+
+track.connect(gainNode).connect(audioCtx.destination);
+
+
+function setTimes() {
+    playerCurrentTime.textContent = new Date(audioElement.currentTime * 1000)
+        .toISOString()
+        .substr(11, 8);
+    playerDuration.textContent = new Date(audioElement.duration * 1000)
+        .toISOString()
+        .substr(11, 8);
 }
+
+function progressUpdate() {
+    const percent = (audioElement.currentTime / audioElement.duration) * 100;
+    progressFilled.style.flexBasis = `${percent}%`;
+}
+
+let mousedown = false;
+
+function scrub(event) {
+    const scrubTime =
+      (event.offsetX / progress.offsetWidth) * audioElement.duration;
+    audioElement.currentTime = scrubTime;
+}
+}, false)
