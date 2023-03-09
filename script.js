@@ -139,12 +139,17 @@ track.connect(gainNode).connect(audioCtx.destination);
 
 
 function setTimes() {
-    playerCurrentTime.textContent = new Date(audioElement.currentTime * 1000)
-        .toISOString()
-        .substr(11, 8);
-    playerDuration.textContent = new Date(audioElement.duration * 1000)
-        .toISOString()
-        .substr(11, 8);
+    try {
+        playerCurrentTime.textContent = new Date(audioElement.currentTime * 1000)
+            .toISOString()
+            .substr(11, 8);
+        playerDuration.textContent = new Date(audioElement.duration * 1000)
+            .toISOString()
+            .substr(11, 8);
+    } catch {
+        console.log("Error, Please reload")
+        window.location.reload();
+    }
 }
 
 function progressUpdate() {
