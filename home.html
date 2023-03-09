@@ -23,10 +23,12 @@
     </header>
     <br>
     <div class="main">
-        <div class="infoBox"><div class="imageWrapper"><img src="images/wrong.png" /></div><p>Stuff</p></div>
-        <div class="infoBox"><p></p></div>
-        <div class="infoBox"><p></p></div>
-        <div class="infoBox"><p></p></div>
+        <div class="infoBox" id="0"></div>
+        <div class="infoBox" id="1"></div>
+        <div class="infoBox" id="2"></div>
+        <div class="infoBox" id="3"></div>
+        <div class="infoBox" id="4"></div>
+        <div class="infoBox" id="5"></div>
     </div>
 
     <div class="progressBar">
@@ -34,6 +36,14 @@
     </div>
 
     <br>
+
+    <div id="playWrapper">
+        <span id="audioStart"></span>
+        <button onclick="playAudio()" id="playButton">
+            <img src="images/play.webp" />
+        </button>
+        <span id="audioEnd"></span>
+    </div>
     
     <div class="textBoxDiv">
         <div style="display: flex; justify-content: center;">

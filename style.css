@@ -180,6 +180,32 @@ input {
     height: 100%;
 }
 
+#playButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+#playButton img {
+    size: 100%;
+}
+
+#playWrapper {
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 8px 12px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .dropdown {
     position: absolute;
     width: 500px;
