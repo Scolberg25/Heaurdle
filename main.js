@@ -3800,7 +3800,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">Test your knowledge of The Tragically Hip\'s music with this variation of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>.</p> \n\n<p class="mb-3">Guess the song as fast as you can, and challenge your friends to beat you!</p>'),
+            '<p class="mb-3">Test your knowledge of hip hop music with this variation of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>.</p> \n\n<p class="mb-3">Guess the song as fast as you can, and challenge your friends to beat you!</p>'),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -4200,14 +4200,14 @@ var app = (function () {
             (f = w("div")),
             (m = w("div")),
             (k = w("div")),
-            (k.textContent = "Next The Tragically Hip song in:"),
+            (k.textContent = "Next Heaurdle song in:"),
             (b = x()),
             Q(S.$$.fragment),
             (D = x()),
             (T = w("div")),
             (Y = w("div")),
             (Y.innerHTML =
-              '<a href="https://udiscoverca.lnk.tt/FullyCompletelyDeluxeWE"><span class="text-custom-negative"></span> \n <span class="px-1">Listen to The Tragically Hip</span></a>'),
+              '<a href="https://trippieredd.lnk.to/mansionmusik"><span class="text-custom-negative"></span> \n <span class="px-1">Now go listen to Trippie Redd while you wait for the next Heaurdle</span></a>'),
             (C = x()),
             Q(O.$$.fragment),
             M(n, "class", "text-lg text-custom-line"),
@@ -4425,7 +4425,7 @@ var app = (function () {
       s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
     return {
       c() {
-        (t = _("You got today's The Tragically Hip Heardle within the first ")),
+        (t = _("You got today's Heaurdle within the first ")),
           (n = _(s)),
           (r = _(" seconds."));
       },
@@ -4453,7 +4453,7 @@ var app = (function () {
       a = e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 > 1 ? "s" : "";
     return {
       c() {
-        (t = _("You got today's The Tragically Hip Heardle within ")),
+        (t = _("You got today's Heaurdle within ")),
           (n = _(o)),
           (r = _("\n                second")),
           (s = _(a)),
@@ -4485,7 +4485,7 @@ var app = (function () {
     return {
       c() {
         n = _(
-          "You didn't get today's The Tragically Hip Heardle. Better luck tomorrow!"
+          "You didn't get today's Heaurdle. Better luck tomorrow!"
         );
       },
       m(e, t) {
@@ -4737,7 +4737,7 @@ var app = (function () {
           (t = w("div")),
             (n = w("div")),
             (n.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct The Tragically Hip song in the list.</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct the song in the list.</p></div>'),
             (r = x()),
             (s = w("div")),
             (s.innerHTML =
@@ -9849,12 +9849,12 @@ var app = (function () {
           Q(Y.$$.fragment),
           (C = x()),
           H && H.c(),
-          (An.title = "The Tragically Hip Heardle"),
+          (An.title = "Heaurdle"),
           M(t, "name", "description"),
           M(
             t,
             "content",
-            "Guess The Tragically Hip song from the intro in as few tries as possible"
+            "Guess the song from the intro in as few tries as possible"
           ),
           M(n, "rel", "apple-touch-icon"),
           M(n, "sizes", "180x180"),
