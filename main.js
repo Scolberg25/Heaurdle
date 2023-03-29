@@ -3995,7 +3995,7 @@ var app = (function () {
       P(async function () {
         (async function () {
           const e = await fetch(
-            "https://wjsn-heardle.glitch.me/supporters.json"
+            "https://www.spotify.com/heardle/"
           );
           return await e.json();
         })().then((e) => {
@@ -4649,7 +4649,7 @@ var app = (function () {
                 ? (t += "⬛️")
                 : (t += "🟥")
               : (t += "⬜️");
-          let o = e + "\n\n" + t + "\n\n" + "https://heaurdle.glitch.me/";
+          let o = e + "\n\n" + t + "\n\n" + "https://heaurdle.netlify.app/";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -9113,6 +9113,37 @@ var app = (function () {
       "Baby Keem - STATS",
       "ScHoolboy Q - Collard Greens (feat. Kendrick Lamar)",
       "Tyler, The Creator - NEW MAGIC WAND",
+      "The Tragically Hip - Ouch",
+      "The Tragically Hip - Twist My Arm",
+      "The Tragically Hip - Born In The Water",
+      "The Tragically Hip - Montreal (Live)",
+      "The Tragically Hip - Little Bones",
+      "The Tragically Hip - On The Verge",
+      "The Tragically Hip - Cordelia",
+      "The Tragically Hip - The Luxury",
+      "The Tragically Hip - The Last Of The Unplucked Gems",
+      "The Tragically Hip - Long Time Running",
+      "The Tragically Hip - Bring It All Back",
+      "The Tragically Hip - Fight",
+      "The Tragically Hip - Three Pistols",
+      "The Tragically Hip - Fiddler's Green",
+      "The Tragically Hip - Courage (For Hugh MacLennan)",
+      "The Tragically Hip - At The Hundredth Meridian",
+      "The Tragically Hip - Lionized",
+      "The Tragically Hip - Looking For A Place To Happen",
+      "The Tragically Hip - Eldorado",
+      "The Tragically Hip - Pigeon Camera",
+      "The Tragically Hip - Wheat Kings",
+      "The Tragically Hip - We'll Go Too",
+      "The Tragically Hip - The Wherewithal",
+      "The Tragically Hip - Fifty Mission Cap",
+      "The Tragically Hip - Fully Completely",
+      "The Tragically Hip - 38 Years Old",
+      "The Tragically Hip - New Orleans Is Sinking",
+      "The Tragically Hip - I'll Believe In You",
+      "The Tragically Hip - Opiated",
+      "The Tragically Hip - Boots Or Hearts",
+      "The Tragically Hip - Blow At High Dough",
     ]),
     On = {
       subscribe: ue(
@@ -9333,7 +9364,134 @@ var app = (function () {
             url: "https://soundcloud.com/topdawgent/schoolboy-q-collard-greens",
             answer: "ScHoolboy Q - Collard Greens (feat. Kendrick Lamar)",
           },
-
+          {
+            url: "https://soundcloud.com/tylerthecreatorofficial/new-magic-wand",
+            answer: "Tyler, The Creator - NEW MAGIC WAND",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/ouch?in=the-tragically-hip/sets/saskadelphia",
+            answer: "The Tragically Hip - Ouch",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/twist-my-arm?in=the-tragically-hip/sets/road-apples",
+            answer: "The Tragically Hip - Twist My Arm",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/born-in-the-water?in=the-tragically-hip/sets/road-apples",
+            answer: "The Tragically Hip - Born In The Water",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/montreal-live?in=the-tragically-hip/sets/saskadelphia",
+            answer: "The Tragically Hip - Montreal (Live)",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/little-bones?in=the-tragically-hip/sets/road-apples",
+            answer: "The Tragically Hip - Little Bones",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/on-the-verge?in=the-tragically-hip/sets/road-apples",
+            answer: "The Tragically Hip - On The Verge",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/cordelia?in=the-tragically-hip/sets/road-apples",
+            answer: "The Tragically Hip - Cordelia",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/the-luxury?in=the-tragically-hip/sets/road-apples",
+            answer: "The Tragically Hip - The Luxury",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/the-last-of-the-unplucked?in=the-tragically-hip/sets/road-apples",
+            answer: "The Tragically Hip - The Last Of The Unplucked Gems",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/long-time-running?in=the-tragically-hip/sets/road-apples",
+            answer: "The Tragically Hip - Long Time Running",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/bring-it-all-back?in=the-tragically-hip/sets/road-apples",
+            answer: "The Tragically Hip - Bring It All Back",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/fight?in=the-tragically-hip/sets/road-apples",
+            answer: "The Tragically Hip - Fight",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/three-pistols?in=the-tragically-hip/sets/road-apples",
+            answer: "The Tragically Hip - Three Pistols",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/fiddlers-green?in=the-tragically-hip/sets/road-apples",
+            answer: "The Tragically Hip - Fiddler's Green",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/courage-for-hugh-maclennan?in=the-tragically-hip/sets/fully-completely",
+            answer: "The Tragically Hip - Courage (For Hugh MacLennan)",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/at-the-hundredth-meridian?in=the-tragically-hip/sets/fully-completely",
+            answer: "The Tragically Hip - At The Hundredth Meridian",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/lionized?in=the-tragically-hip/sets/fully-completely",
+            answer: "The Tragically Hip - Lionized",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/looking-for-a-place-to-happen?in=the-tragically-hip/sets/fully-completely",
+            answer: "The Tragically Hip - Looking For A Place To Happen",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/eldorado?in=the-tragically-hip/sets/fully-completely",
+            answer: "The Tragically Hip - Eldorado",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/pigeon-camera?in=the-tragically-hip/sets/fully-completely",
+            answer: "The Tragically Hip - Pigeon Camera",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/wheat-kings?in=the-tragically-hip/sets/fully-completely",
+            answer: "The Tragically Hip - Wheat Kings",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/well-go-too?in=the-tragically-hip/sets/fully-completely",
+            answer: "The Tragically Hip - We'll Go Too",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/the-wherewithal?in=the-tragically-hip/sets/fully-completely",
+            answer: "The Tragically Hip - The Wherewithal",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/fifty-mission-cap?in=the-tragically-hip/sets/fully-completely",
+            answer: "The Tragically Hip - Fifty Mission Cap",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/fully-completely?in=the-tragically-hip/sets/fully-completely",
+            answer: "The Tragically Hip - Fully Completely",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/38-years-old?in=the-tragically-hip/sets/up-to-here",
+            answer: "The Tragically Hip - 38 Years Old",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/new-orleans-is-sinking?in=the-tragically-hip/sets/up-to-here",
+            answer: "The Tragically Hip - New Orleans Is Sinking",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/ill-believe-in-you-or-ill-be?in=the-tragically-hip/sets/up-to-here",
+            answer: "The Tragically Hip - I'll Believe In You",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/opiated?in=the-tragically-hip/sets/up-to-here",
+            answer: "The Tragically Hip - Opiated",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/boots-or-hearts?in=the-tragically-hip/sets/up-to-here",
+            answer: "The Tragically Hip - Boots Or Hearts",
+          },
+          {
+            url: "https://soundcloud.com/the-tragically-hip/blow-at-high-dough?in=the-tragically-hip/sets/up-to-here",
+            answer: "The Tragically Hip - Blow At High Dough",
+          },
         ],
         Pn
       ).subscribe,
