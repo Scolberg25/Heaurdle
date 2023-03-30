@@ -1,4 +1,4 @@
-#Heaurdle
+# Heaurdle
 
 [Heaurdle](https://heaurdle.netlify.app/)
 
