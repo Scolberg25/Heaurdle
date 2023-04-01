@@ -983,7 +983,7 @@ var app = (function () {
           M(
             n,
             "href",
-            (c = "https://udiscoverca.lnk.tt/FullyCompletelyDeluxeWE")
+            (c = "https://trippieredd.lnk.to/mansionmusik")
           ),
           M(
             n,
@@ -1025,7 +1025,7 @@ var app = (function () {
           4 & t && Y(r, "bg-custom-positive", e[2].gotCorrect),
           4 & t && Y(r, "bg-custom-mg", !e[2].gotCorrect),
           2 & t &&
-            c !== (c = "https://udiscoverca.lnk.tt/FullyCompletelyDeluxeWE") &&
+            c !== (c = 'https://trippieredd.lnk.to/mansionmusik') &&
             M(n, "href", c),
           2 & t &&
             d !==
@@ -1870,7 +1870,7 @@ var app = (function () {
           M(
             r,
             "href",
-            (i = "https://udiscoverca.lnk.tt/FullyCompletelyDeluxeWE")
+            (i = "https://trippieredd.lnk.to/mansionmusik")
           ),
           M(r, "style", "color:black"),
           M(t, "class", "text-xs text-custom-line pt-1");
@@ -1881,7 +1881,7 @@ var app = (function () {
       },
       p(e, t) {
         2 & t[0] &&
-          i !== (i = "https://udiscoverca.lnk.tt/FullyCompletelyDeluxeWE") &&
+          i !== (i = "https://trippieredd.lnk.to/mansionmusik") &&
           M(r, "href", i);
       },
       d(e) {
