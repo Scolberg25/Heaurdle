@@ -9144,6 +9144,13 @@ var app = (function () {
       "Don Toliver - After Party",
       "Drake, 21 Savage - Pussy & Millions (feat. Travis Scott)",
       "Lil Baby, Gunna - Drip Too Hard",
+      "NLE Choppa - Capo",
+      "Drake & 21 Savage - Major Distribution",
+      "XXXTENTACION - vice city",
+      "Trippie Redd & Juice WRLD - 1400/999 Freestyle",
+      "Kendrick Lamar - Silent Hill (feat. Kodak Black)",
+      "Baby Keem - 16",
+      "Polo G - 21",
     ]),
     On = {
       subscribe: ue(
@@ -9491,6 +9498,34 @@ var app = (function () {
           {
             url: "https://soundcloud.com/lil-baby-4pf/drip-too-hard",
             answer: "Lil Baby, Gunna - Drip Too Hard",
+          },
+          {
+            url: "https://soundcloud.com/nlechoppa/capo",
+            answer: "NLE Choppa - Capo",
+          },
+          {
+            url: "https://soundcloud.com/octobersveryown/drake-21-savage-major",
+            answer: "Drake & 21 Savage - Major Distribution",
+          },
+          {
+            url: "https://soundcloud.com/jahseh-onfroy/xxxtentacion-vice-city-prod",
+            answer: "XXXTENTACION - vice city",
+          },
+          {
+            url: "https://soundcloud.com/poop-poop-828317186/1400-999-freestyle",
+            answer: "Trippie Redd & Juice WRLD - 1400/999 Freestyle",
+          },
+          {
+            url: "https://soundcloud.com/kendrick-lamar-music/silent-hill-ft-kodak-black",
+            answer: "Kendrick Lamar - Silent Hill (feat. Kodak Black)",
+          },
+          {
+            url: "https://soundcloud.com/hykeemcarter/16a1",
+            answer: "Baby Keem - 16",
+          },
+          {
+            url: "https://soundcloud.com/polo-g/polo-g-21",
+            answer: "Polo G - 21",
           },
         ],
         Pn
