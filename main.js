@@ -9151,6 +9151,25 @@ var app = (function () {
       "Kendrick Lamar - Silent Hill (feat. Kodak Black)",
       "Baby Keem - 16",
       "Polo G - 21",
+      "NAV - Turks (feat. Travis Scott)",
+      "DaBaby - BOP",
+      "DaBaby - ROCKSTAR (feat. Roddy Ricch)",
+      "Post Malone - rockstar (feat. 21 Savage)",
+      "Cochise - Redhead",
+      "Quality Control, Lil Baby, DaBaby - Baby",
+      "iann dior - emotions",
+      "iann dior - shots in the dark (feat. Trippie Redd)",
+      "iann dior - molly (feat. bernard jabs)",
+      "24kGoldn - Mood (feat. iann dior)",
+      "iann dior - gone girl (feat. Trippie Redd)",
+      "Lil Nas X - INDUSTRY BABY (feat. Jack Harlow)",
+      "Lil Nas X - MONTERO (Call Me By Your Name)",
+      "Lil Nas X - HOLIDAY",
+      "Lil Nas X - Old Town Road",
+      "Roddy Ricch - The Box",
+      "Lil Uzi Vert - XO TOUR Llif3",
+      "Young Thug - Bad Bad Bad (feat. Lil Baby)",
+      "Eminem - Godzilla (feat. Juice WRLD)",
     ]),
     On = {
       subscribe: ue(
@@ -9526,6 +9545,82 @@ var app = (function () {
           {
             url: "https://soundcloud.com/polo-g/polo-g-21",
             answer: "Polo G - 21",
+          },
+          {
+            url: "https://soundcloud.com/navmusic/turks-feat-travis-scott",
+            answer: "NAV - Turks (feat. Travis Scott)",
+          },
+          {
+            url: "https://soundcloud.com/dabilliondollarbaby/bop",
+            answer: "DaBaby - BOP",
+          },
+          {
+            url: "https://soundcloud.com/dabilliondollarbaby/rockstar-feat-roddy-ricch",
+            answer: "DaBaby - ROCKSTAR (feat. Roddy Ricch)",
+          },
+          {
+            url: "https://soundcloud.com/postmalone/rockstar-feat-21-savage",
+            answer: "Post Malone - rockstar (feat. 21 Savage)",
+          },
+          {
+            url: "https://soundcloud.com/yungcochise/red-head-music-video-in-description",
+            answer: "Cochise - Redhead",
+          },
+          {
+            url: "https://soundcloud.com/lil-baby-4pf/baby",
+            answer: "Quality Control, Lil Baby, DaBaby - Baby",
+          },
+          {
+            url: "https://soundcloud.com/ianndior/iann-dior-emotions-prod-nick-mira",
+            answer: "iann dior - emotions",
+          },
+          {
+            url: "https://soundcloud.com/ianndior/shots-in-the-dark-feat-trippie-redd",
+            answer: "iann dior - shots in the dark (feat. Trippie Redd)",
+          },
+          {
+            url: "https://soundcloud.com/ianndior/iann-dior-molly-feat-bernard-jabs-prod-nick-mira",
+            answer: "iann dior - molly (feat. bernard jabs)",
+          },
+          {
+            url: "https://soundcloud.com/24kgoldn/mood-feat-iann-dior",
+            answer: "24kGoldn - Mood (feat. iann dior)",
+          },
+          {
+            url: "https://soundcloud.com/ianndior/gone-girl-ft-trippie-redd",
+            answer: "iann dior - gone girl (feat. Trippie Redd)",
+          },
+          {
+            url: "https://soundcloud.com/secret-service-862007284/industry-baby",
+            answer: "Lil Nas X - INDUSTRY BABY (feat. Jack Harlow)",
+          },
+          {
+            url: "https://soundcloud.com/secret-service-862007284/montero-call-me-by-your-name",
+            answer: "Lil Nas X - MONTERO (Call Me By Your Name)",
+          },
+          {
+            url: "https://soundcloud.com/secret-service-862007284/holiday",
+            answer: "Lil Nas X - HOLIDAY",
+          },
+          {
+            url: "https://soundcloud.com/secret-service-862007284/old-town-road",
+            answer: "Lil Nas X - Old Town Road",
+          },
+          {
+            url: "https://soundcloud.com/roddyricch/the-box",
+            answer: "Roddy Ricch - The Box",
+          },
+          {
+            url: "https://soundcloud.com/liluzivert/15-xo-tour-llif3",
+            answer: "Lil Uzi Vert - XO TOUR Llif3",
+          },
+          {
+            url: "https://soundcloud.com/youngthugworld/bad-bad-bad-feat-lil-baby-1",
+            answer: "Young Thug - Bad Bad Bad (feat. Lil Baby)",
+          },
+          {
+            url: "https://soundcloud.com/eminemofficial/godzilla-feat-juice-wrld",
+            answer: "Eminem - Godzilla (feat. Juice WRLD)",
           },
         ],
         Pn
