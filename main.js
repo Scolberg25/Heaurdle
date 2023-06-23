@@ -9170,6 +9170,14 @@ var app = (function () {
       "Lil Uzi Vert - XO TOUR Llif3",
       "Young Thug - Bad Bad Bad (feat. Lil Baby)",
       "Eminem - Godzilla (feat. Juice WRLD)",
+      "Lil Tecca - Ransom (feat. Juice WRLD)",
+      "Juice WRLD - Armed And Dangerous",
+      "Bankrol Hayden - Costa Rica",
+      "Metro Boomin, 21 Savage, Young Nudy - Umbrella",
+      "DaBaby - Red Light Green Light",
+      "Travis Scott, Kid Cudi - THE SCOTTS",
+      "Dreamville - Costa Rica",
+      "Dr. Dre - Forgot About Dre (feat. Eminem)",
     ]),
     On = {
       subscribe: ue(
@@ -9621,6 +9629,38 @@ var app = (function () {
           {
             url: "https://soundcloud.com/eminemofficial/godzilla-feat-juice-wrld",
             answer: "Eminem - Godzilla (feat. Juice WRLD)",
+          },
+          {
+            url: "https://soundcloud.com/liltecca/ransomwrld",
+            answer: "Lil Tecca - Ransom (feat. Juice WRLD)",
+          },
+          {
+            url: "https://soundcloud.com/uiceheidd/armed-dangerous",
+            answer: "Juice WRLD - Armed And Dangerous",
+          },
+          {
+            url: "https://soundcloud.com/bankrolhayden/bankrol-hayden-costa-rica",
+            answer: "Bankrol Hayden - Costa Rica",
+          },
+          {
+            url: "https://soundcloud.com/metroboomin/umbrella",
+            answer: "Metro Boomin, 21 Savage, Young Nudy - Umbrella",
+          },
+          {
+            url: "https://soundcloud.com/dabilliondollarbaby/red-light-green-light",
+            answer: "DaBaby - Red Light Green Light",
+          },
+          {
+            url: "https://soundcloud.com/the_scotts/the-scotts",
+            answer: "Travis Scott, Kid Cudi - THE SCOTTS",
+          },
+          {
+            url: "https://soundcloud.com/dreamvillerecords/costa-rica-ft-bas-jid-guapdad",
+            answer: "Dreamville - Costa Rica",
+          },
+          {
+            url: "https://soundcloud.com/dr-dre-music/forgot-about-dre",
+            answer: "Dr. Dre - Forgot About Dre (feat. Eminem)",
           },
         ],
         Pn
